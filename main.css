@@ -1,7 +1,20 @@
-.park-code {
-
+.no-results {
+  color: red;
 }
 
-.search-term {
-  
+.park-name {
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.park-description {
+  font-style: italic;
+}
+
+.park-url {
+  text-decoration: underline;
+}
+
+.park-address {
+
 }
