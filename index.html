@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YouTube Search</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Search YouTube!</h1>
+      <h2>Enter a search term, and let's see what we can find on the 'Tube!</h2>
+    </header>
+
+    <main>
+      <section>
+        <form class="search-form" id="js-search-form">
+          <div class="search-boxes">
+            <h3>Search by either Park Code OR a Search Term</h3>
+            Park Code: <input id="js-park-input" class="park-code" type="text" name="search"><br/>
+            Search Term: <input id="js-search-input" class="search-term" type="text" name="search">
+          </div>
+          <div class="state-and-results">
+            <p>State Code: <input id="js-state-input" type="text" name="state" value="">(2 Letter Code - Ex: Georgia = GA)</p>
+            <p>Max Number of Results: <input id="js-result-num-input" type="text" name="num-results" value="10">(Default: 10 - Max: 100)</p>
+          </div>
+
+          <input type="submit" name="submit" value="Search">
+        </form>
+      </section>
+      <section id="js-display-results" class="display-results">
+
+      </section>
+    </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
